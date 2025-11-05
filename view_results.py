@@ -232,15 +232,6 @@ def main():
         display_summary_table(evaluations)
         display_statistics(evaluations)
 
-    print("\n" + "=" * 60)
-    print("Usage:")
-    print("  python view_results.py           - Summary table + statistics")
-    print("  python view_results.py detailed  - Detailed view of each student")
-    print("  python view_results.py stats     - Statistics only")
-    print("  python view_results.py csv       - Export to CSV file")
-    print("  python view_results.py all       - Show everything + export CSV")
-    print("=" * 60)
-    print()
 
 
 if __name__ == "__main__":
